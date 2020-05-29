@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: bold;
+}
+@media(min-width: 992px){
+	section{
+		width: 33%
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.sec1,.sec2{
+		width: 50%;
+	}
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+section{
+	position: relative;
+	background-color: lightgrey ;
+	border: solid black;
+	border-width: 1px;
+	margin: 10px;
+	float: left;
+}
+h2{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   border: solid black;
+   border-width: 1px; 
+   width: 175px;
+   height: 30px;
+   text-align: center;
+   font-size: 125%;
+}
+.sub1{
+	background-color: lightpink;
+}
+.sub2{
+	background-color: red;
+	color: white;
+}
+.sub3{
+	background-color: yellow;
+}
+
+div{
+	margin: 10px;
+	margin-top: 40px;
+	font-size: 100%;
+
+}
